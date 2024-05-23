@@ -22,7 +22,7 @@ extension Post {
         let image: UIImage
         
         // MARK: - Life Cycle
-        init(from decoder: any Decoder) throws {
+        init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
             
             id = try container.decode(String.self, forKey: .id)

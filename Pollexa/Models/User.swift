@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct User {
+struct User: Decodable {
     
     // MARK: - Types
     enum CodingKeys: String, CodingKey {
@@ -22,7 +22,7 @@ struct User {
     let image: UIImage
     
     // MARK: - Life Cycle
-    init(from decoder: any Decoder) throws {
+    init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
         id = try container.decode(String.self, forKey: .id)

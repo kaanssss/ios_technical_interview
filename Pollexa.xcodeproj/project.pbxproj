@@ -10,34 +10,74 @@
 		6E3A36022BF2563400ECE78C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A36012BF2563400ECE78C /* AppDelegate.swift */; };
 		6E3A36042BF2563400ECE78C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A36032BF2563400ECE78C /* SceneDelegate.swift */; };
 		6E3A36062BF2563400ECE78C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A36052BF2563400ECE78C /* DiscoverViewController.swift */; };
-		6E3A36092BF2563400ECE78C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A36082BF2563400ECE78C /* Base */; };
 		6E3A360B2BF2563500ECE78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A360A2BF2563500ECE78C /* Assets.xcassets */; };
-		6E3A360E2BF2563500ECE78C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A360D2BF2563500ECE78C /* Base */; };
 		6E3A36162BF25D8D00ECE78C /* PostProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A36152BF25D8D00ECE78C /* PostProvider.swift */; };
 		6E3A36182BF25DA800ECE78C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A36172BF25DA800ECE78C /* Post.swift */; };
 		6E3A361A2BF25DAC00ECE78C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A36192BF25DAC00ECE78C /* User.swift */; };
 		6E3A361C2BF25F2900ECE78C /* PostOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A361B2BF25F2900ECE78C /* PostOption.swift */; };
 		6E3A36212BF25FD900ECE78C /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E3A361F2BF25FD900ECE78C /* posts.json */; };
+		DFC061802BFF2DD30012F80F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DFC0617F2BFF2DD30012F80F /* SnapKit */; };
+		DFC061822BFF2DD30012F80F /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = DFC061812BFF2DD30012F80F /* SnapKit-Dynamic */; };
+		DFC061842BFF2E350012F80F /* DiscoverVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC061832BFF2E350012F80F /* DiscoverVM.swift */; };
+		DFC061862BFF2E3F0012F80F /* DiscoverDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC061852BFF2E3F0012F80F /* DiscoverDS.swift */; };
+		DFC061892BFF2E550012F80F /* ActivePollsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC061882BFF2E550012F80F /* ActivePollsCell.swift */; };
+		DFC0618B2BFF2E620012F80F /* VoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC0618A2BFF2E620012F80F /* VoteCell.swift */; };
+		DFC0618D2BFF2E700012F80F /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC0618C2BFF2E700012F80F /* LaunchScreenVC.swift */; };
+		DFC0618F2BFF2E970012F80F /* StatefulVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC0618E2BFF2E970012F80F /* StatefulVM.swift */; };
+		DFC061912BFF2EA20012F80F /* StatefulDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC061902BFF2EA20012F80F /* StatefulDS.swift */; };
+		DFC061932BFF2EB00012F80F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC061922BFF2EB00012F80F /* Helper.swift */; };
+		DFC061952BFF2EBA0012F80F /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC061942BFF2EBA0012F80F /* CustomImageView.swift */; };
+		DFC061972BFF2EC80012F80F /* ActivePollsCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC061962BFF2EC80012F80F /* ActivePollsCustomView.swift */; };
+		DFC0619F2BFF2F000012F80F /* PollexaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC0619E2BFF2F000012F80F /* PollexaTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFC061A02BFF2F000012F80F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3A35F62BF2563400ECE78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3A35FD2BF2563400ECE78C;
+			remoteInfo = Pollexa;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6E3A35FE2BF2563400ECE78C /* Pollexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3A36012BF2563400ECE78C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E3A36032BF2563400ECE78C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6E3A36052BF2563400ECE78C /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		6E3A36082BF2563400ECE78C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E3A360A2BF2563500ECE78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E3A360D2BF2563500ECE78C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E3A360F2BF2563500ECE78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E3A36152BF25D8D00ECE78C /* PostProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProvider.swift; sourceTree = "<group>"; };
 		6E3A36172BF25DA800ECE78C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		6E3A36192BF25DAC00ECE78C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6E3A361B2BF25F2900ECE78C /* PostOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostOption.swift; sourceTree = "<group>"; };
 		6E3A36202BF25FD900ECE78C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/posts.json; sourceTree = "<group>"; };
+		DFC061832BFF2E350012F80F /* DiscoverVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVM.swift; sourceTree = "<group>"; };
+		DFC061852BFF2E3F0012F80F /* DiscoverDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDS.swift; sourceTree = "<group>"; };
+		DFC061882BFF2E550012F80F /* ActivePollsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivePollsCell.swift; sourceTree = "<group>"; };
+		DFC0618A2BFF2E620012F80F /* VoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteCell.swift; sourceTree = "<group>"; };
+		DFC0618C2BFF2E700012F80F /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+		DFC0618E2BFF2E970012F80F /* StatefulVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulVM.swift; sourceTree = "<group>"; };
+		DFC061902BFF2EA20012F80F /* StatefulDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulDS.swift; sourceTree = "<group>"; };
+		DFC061922BFF2EB00012F80F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		DFC061942BFF2EBA0012F80F /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		DFC061962BFF2EC80012F80F /* ActivePollsCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivePollsCustomView.swift; sourceTree = "<group>"; };
+		DFC0619C2BFF2F000012F80F /* PollexaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollexaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC0619E2BFF2F000012F80F /* PollexaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollexaTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6E3A35FB2BF2563400ECE78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC061802BFF2DD30012F80F /* SnapKit in Frameworks */,
+				DFC061822BFF2DD30012F80F /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC061992BFF2F000012F80F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				6E3A36002BF2563400ECE78C /* Pollexa */,
+				DFC0619D2BFF2F000012F80F /* PollexaTests */,
 				6E3A35FF2BF2563400ECE78C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				6E3A35FE2BF2563400ECE78C /* Pollexa.app */,
+				DFC0619C2BFF2F000012F80F /* PollexaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +141,11 @@
 			isa = PBXGroup;
 			children = (
 				6E3A36152BF25D8D00ECE78C /* PostProvider.swift */,
+				DFC0618E2BFF2E970012F80F /* StatefulVM.swift */,
+				DFC061902BFF2EA20012F80F /* StatefulDS.swift */,
+				DFC061922BFF2EB00012F80F /* Helper.swift */,
+				DFC061942BFF2EBA0012F80F /* CustomImageView.swift */,
+				DFC061962BFF2EC80012F80F /* ActivePollsCustomView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -125,7 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				6E3A36262BF2602900ECE78C /* Controllers */,
-				6E3A36072BF2563400ECE78C /* Main.storyboard */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -133,7 +179,10 @@
 		6E3A36262BF2602900ECE78C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DFC061872BFF2E470012F80F /* Cell */,
 				6E3A36052BF2563400ECE78C /* DiscoverViewController.swift */,
+				DFC061832BFF2E350012F80F /* DiscoverVM.swift */,
+				DFC061852BFF2E3F0012F80F /* DiscoverDS.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -141,9 +190,26 @@
 		6E3A36272BF2603300ECE78C /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				6E3A360C2BF2563500ECE78C /* LaunchScreen.storyboard */,
+				DFC0618C2BFF2E700012F80F /* LaunchScreenVC.swift */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		DFC061872BFF2E470012F80F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DFC061882BFF2E550012F80F /* ActivePollsCell.swift */,
+				DFC0618A2BFF2E620012F80F /* VoteCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DFC0619D2BFF2F000012F80F /* PollexaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFC0619E2BFF2F000012F80F /* PollexaTests.swift */,
+			);
+			path = PollexaTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +228,31 @@
 			dependencies = (
 			);
 			name = Pollexa;
+			packageProductDependencies = (
+				DFC0617F2BFF2DD30012F80F /* SnapKit */,
+				DFC061812BFF2DD30012F80F /* SnapKit-Dynamic */,
+			);
 			productName = Pollexa;
 			productReference = 6E3A35FE2BF2563400ECE78C /* Pollexa.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DFC0619B2BFF2F000012F80F /* PollexaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC061A22BFF2F000012F80F /* Build configuration list for PBXNativeTarget "PollexaTests" */;
+			buildPhases = (
+				DFC061982BFF2F000012F80F /* Sources */,
+				DFC061992BFF2F000012F80F /* Frameworks */,
+				DFC0619A2BFF2F000012F80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFC061A12BFF2F000012F80F /* PBXTargetDependency */,
+			);
+			name = PollexaTests;
+			productName = PollexaTests;
+			productReference = DFC0619C2BFF2F000012F80F /* PollexaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -179,6 +267,10 @@
 					6E3A35FD2BF2563400ECE78C = {
 						CreatedOnToolsVersion = 15.3;
 					};
+					DFC0619B2BFF2F000012F80F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 6E3A35FD2BF2563400ECE78C;
+					};
 				};
 			};
 			buildConfigurationList = 6E3A35F92BF2563400ECE78C /* Build configuration list for PBXProject "Pollexa" */;
@@ -190,11 +282,15 @@
 				Base,
 			);
 			mainGroup = 6E3A35F52BF2563400ECE78C;
+			packageReferences = (
+				DFC0617E2BFF2DD30012F80F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 6E3A35FF2BF2563400ECE78C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6E3A35FD2BF2563400ECE78C /* Pollexa */,
+				DFC0619B2BFF2F000012F80F /* PollexaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,9 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E3A360B2BF2563500ECE78C /* Assets.xcassets in Resources */,
-				6E3A360E2BF2563500ECE78C /* Base in Resources */,
 				6E3A36212BF25FD900ECE78C /* posts.json in Resources */,
-				6E3A36092BF2563400ECE78C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC0619A2BFF2F000012F80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,35 +319,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC0618B2BFF2E620012F80F /* VoteCell.swift in Sources */,
+				DFC0618F2BFF2E970012F80F /* StatefulVM.swift in Sources */,
+				DFC061932BFF2EB00012F80F /* Helper.swift in Sources */,
 				6E3A36062BF2563400ECE78C /* DiscoverViewController.swift in Sources */,
 				6E3A36022BF2563400ECE78C /* AppDelegate.swift in Sources */,
+				DFC061912BFF2EA20012F80F /* StatefulDS.swift in Sources */,
 				6E3A361A2BF25DAC00ECE78C /* User.swift in Sources */,
+				DFC061972BFF2EC80012F80F /* ActivePollsCustomView.swift in Sources */,
 				6E3A36162BF25D8D00ECE78C /* PostProvider.swift in Sources */,
 				6E3A361C2BF25F2900ECE78C /* PostOption.swift in Sources */,
+				DFC061952BFF2EBA0012F80F /* CustomImageView.swift in Sources */,
+				DFC061842BFF2E350012F80F /* DiscoverVM.swift in Sources */,
+				DFC061892BFF2E550012F80F /* ActivePollsCell.swift in Sources */,
+				DFC061862BFF2E3F0012F80F /* DiscoverDS.swift in Sources */,
 				6E3A36042BF2563400ECE78C /* SceneDelegate.swift in Sources */,
 				6E3A36182BF25DA800ECE78C /* Post.swift in Sources */,
+				DFC0618D2BFF2E700012F80F /* LaunchScreenVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC061982BFF2F000012F80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC0619F2BFF2F000012F80F /* PollexaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DFC061A12BFF2F000012F80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3A35FD2BF2563400ECE78C /* Pollexa */;
+			targetProxy = DFC061A02BFF2F000012F80F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		6E3A36072BF2563400ECE78C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3A36082BF2563400ECE78C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6E3A360C2BF2563500ECE78C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3A360D2BF2563500ECE78C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		6E3A361F2BF25FD900ECE78C /* posts.json */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,7 +499,6 @@
 				INFOPLIST_FILE = Pollexa/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -415,7 +525,6 @@
 				INFOPLIST_FILE = Pollexa/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,6 +537,44 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFC061A32BFF2F000012F80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QRST54W62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenApps.PollexaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pollexa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pollexa";
+			};
+			name = Debug;
+		};
+		DFC061A42BFF2F000012F80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QRST54W62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenApps.PollexaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pollexa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pollexa";
 			};
 			name = Release;
 		};
@@ -452,7 +599,40 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DFC061A22BFF2F000012F80F /* Build configuration list for PBXNativeTarget "PollexaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC061A32BFF2F000012F80F /* Debug */,
+				DFC061A42BFF2F000012F80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFC0617E2BFF2DD30012F80F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFC0617F2BFF2DD30012F80F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFC0617E2BFF2DD30012F80F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DFC061812BFF2DD30012F80F /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFC0617E2BFF2DD30012F80F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E3A35F62BF2563400ECE78C /* Project object */;
 }
